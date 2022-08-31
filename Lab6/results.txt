@@ -1,0 +1,66 @@
+For each configuration the test percentages are 70% training and 30% testing.
+
+5 words
+Step 6
+Size 8
+accuracy = 0.6713
+[[257 154]
+ [109 280]]
+
+Step 4
+Size 6
+accuracy = 0.6383
+[[183 125]
+ [ 92 200]]
+
+With the default number of words (5), the accuracy 
+increases with the step and size increasing.
+
+10 words
+Step 3
+Size 5
+accuracy = 0.6800
+[[204 104]
+ [ 88 204]]
+
+Step 10
+Size 12
+accuracy = 0.6950
+[[198 110]
+ [ 73 219]]
+
+With 10 words accuracy goes up slightly 
+when the step and size are greater
+
+8 words
+Step 6
+Size 8
+accuracy = 0.7267
+[[209  99]
+ [ 65 227]]
+
+Step 4
+Size 7
+accuracy = 0.7450
+[[234  74]
+ [ 79 213]]
+
+With 8 words the accuracy goes up when we 
+reduce the step and size
+
+2 words
+Step 8
+Size 10
+accuracy = 0.6517
+[[218  90]
+ [119 173]]
+
+Step 4
+Size 6
+accuracy = 0.6533
+[[211  97]
+ [111 181]]
+
+The 2 words is not really reccomended, because the 
+word size is too small.  but the accuracy doesn't change
+significantly no matter the input size and step
